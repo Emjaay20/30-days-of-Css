@@ -21,9 +21,11 @@ body {
     }
     .frame{
         position: absolute;
-        right: 100px;
-        bottom: 130px;
-        padding: 1rem;
+        top: 150px;
+        bottom: 170px;
+        left: 140px;
+        right: 130px;
+        padding: 16px;
         border-radius: 20px;
         width: 432px;
         min-height: 320px;
