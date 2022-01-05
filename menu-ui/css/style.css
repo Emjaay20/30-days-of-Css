@@ -1,0 +1,118 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+        padding: 0;
+        background-color: #e5e5e5;
+        color: #262040;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+    }
+    
+
+ .ellipse{
+     margin: 4rem auto;
+     background-color: #e0e7f8;
+     border-radius: 50%;
+     width: 640px;
+     height: 640px;
+     padding: 1rem;
+     position: relative;
+    }
+    .frame{
+        position: absolute;
+        right: 100px;
+        bottom: 130px;
+        padding: 1rem;
+        border-radius: 20px;
+        width: 432px;
+        min-height: 320px;
+        background-color: #fff;
+    }
+    
+    .rect{
+        padding: 10px;
+        background-color: #626cd6;
+        box-shadow: 0px 16px 25px -10px rgba(83, 92, 181, 0.25);
+        border-radius: 10px;
+    }
+    .new1{
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin: 8px;
+    }
+    .new2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 8px;
+        
+    }
+    .new3{
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        color: #ffffff;
+        margin: 0;
+        max-width: 272px;
+    }
+    .button{
+        border-radius: 5px;
+        padding: 12px 20px;
+        color: #262040;
+        font-size: 13px;
+        background-color: #fff;
+        border: 1px solid #fff;
+        font-style: normal;
+        font-weight: normal;
+        cursor: pointer;
+    }
+    .new4{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+.new4 ul {
+    padding: 10px;
+    list-style: none;
+ }
+ .new4 ul li {
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6F7189;
+ }
+ .new4 ul li:hover{
+     background-color: #F1F2FF;
+     padding: 8px 10px 8px 10px;
+     border-radius: 3px;
+ }
+
+ /**** Media Queries ***/
+ @media  (min-width: 320px) and (max-width: 602px) {
+ .ellipse{
+    margin: 4rem auto;
+    background-color: #e0e7f8;
+    border-radius: 50%;
+    width: 40rem;
+    height: 40rem;
+    padding: 1rem;
+    position: relative;
+}
+.frame{
+    position: absolute;
+    right: 100px;
+    bottom: 130px;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 27rem;
+    min-height: 20rem;
+    background-color: #fff;
+}
+
+}
